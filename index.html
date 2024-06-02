@@ -14,46 +14,56 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #333;
+            background-color: #4CAF50;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         .container {
             width: 80%;
-            margin: 0 auto;
-            overflow: hidden;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
         }
         .main {
-            padding: 2rem;
-            background: #fff;
-            margin-top: 1rem;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .section-title {
-            color: #333;
+            color: #4CAF50;
             margin-bottom: 1rem;
-            border-bottom: 2px solid #333;
+            border-bottom: 2px solid #4CAF50;
             padding-bottom: 0.5rem;
+            width: 100%;
+            text-align: left;
         }
-        .info, .about, .experience, .education, .organizations, .internships, .skills, .hobbies, .contact, .qr-code {
+        .info, .about, .experience, .education, .organizations, .skills, .hobbies, .contact, .qr-code {
             margin-bottom: 2rem;
+            width: 100%;
         }
         .info img {
             max-width: 150px;
             border-radius: 50%;
             margin-bottom: 1rem;
         }
+        .info p, .about p, .experience p, .education p, .organizations p, .skills ul, .hobbies ul, .contact p {
+            margin: 0.5rem 0;
+        }
         .skills ul, .hobbies ul {
             list-style-type: none;
             padding: 0;
         }
         .skills li, .hobbies li {
-            background: #333;
+            background: #4CAF50;
             color: #fff;
             padding: 0.5rem;
             margin-bottom: 0.5rem;
             border-radius: 5px;
+            text-align: center;
         }
         .qr-code {
             text-align: center;
@@ -65,12 +75,13 @@
         footer {
             text-align: center;
             padding: 1rem;
-            background-color: #333;
+            background-color: #4CAF50;
             color: #fff;
             margin-top: 1rem;
+            width: 100%;
         }
         a {
-            color: #333;
+            color: #4CAF50;
             text-decoration: none;
         }
         a:hover {
@@ -117,11 +128,6 @@
                 <p>协助康复中心负责人开展慈善晚会，成功邀请各界知名人士参与，负责布置场内设施以及人员分布，采购所需食物和水。</p>
                 <p><strong>青海老乡QQ群运营及管理</strong>，群主，2020年9月 - 至今，南京</p>
                 <p>负责500人的青海老乡QQ群的运营及管理，编辑并发布活动公告，组织人员招新并策划迎新活动。</p>
-            </section>
-            <section class="internships">
-                <h2 class="section-title">实习经历</h2>
-                <p><strong>南京铁路公安处</strong>，实习生，2018年7月 - 2018年8月，南京</p>
-                <p>协助警察进行日常巡逻，参与案件的调查与处理，记录案件资料，并整理档案。</p>
             </section>
             <section class="skills">
                 <h2 class="section-title">技能</h2>
